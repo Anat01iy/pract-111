@@ -3,6 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .index-href :nth-child(1) {
+            color: red;
+        }
+        .index-href :nth-child(2) {
+            color: black;
+        }
+        .index-href :nth-child(3) {
+            color: blue;
+        }
+        .index-href :nth-child(4) {
+            color: green;
+        }
+
+    </style>
+
     <title>Main</title>
 </head>
 <body>
@@ -13,10 +30,10 @@
           Володію HTML, CSS, JavaScript та іншими мовами програмування.
            Зараз навчаюся в університеті, де вдосконалюю навички створення веб-сайтів та додатків.</p>
         <ul>
-            <li><a href="biography.html">Автобіографія</a></li>
-            <li><a href="nowadays.html">Сьогодення</a></li>
-            <li><a href="friends.html">Друзі</a></li>
-            <li><a href="gallery.html">Галерея</a></li>
+            <li><a class="index-href" href="biography.html">Автобіографія</a></li>
+            <li><a class="index-href" href="nowadays.html">Сьогодення</a></li>
+            <li><a class="index-href" href="friends.html">Друзі</a></li>
+            <li><a class="index-href" href="gallery.html">Галерея</a></li>
         </ul>
 </body>
 </html>
