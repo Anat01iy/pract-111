@@ -5,19 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-        .index-href :nth-child(1) {
+        ul > li:nth-child(1) > a:link {
             color: red;
         }
-        .index-href :nth-child(2) {
+        ul > li:nth-child(1) > a:link {
             color: black;
         }
-        .index-href :nth-child(3) {
+        ul > li:nth-child(1) > a:link {
             color: blue;
         }
-        .index-href :nth-child(4) {
+        ul > li:nth-child(1) > a:link {
             color: green;
         }
 
+        ul > li:nth-child(1) > a:visited {
+            color: red;
+        }
+        ul > li:nth-child(2) > a:visited {
+            color: black;
+        }
+        ul > li:nth-child(3) > a:visited {
+            color: blue;
+        }
+        ul > li:nth-child(4) > a:visited {
+            color: green;
+        }
     </style>
 
     <title>Main</title>
@@ -29,7 +41,7 @@
          Мене захоплює розробка веб-додатків.
           Володію HTML, CSS, JavaScript та іншими мовами програмування.
            Зараз навчаюся в університеті, де вдосконалюю навички створення веб-сайтів та додатків.</p>
-        <ul>
+        <ul class="index-href">
             <li><a class="index-href" href="biography.html">Автобіографія</a></li>
             <li><a class="index-href" href="nowadays.html">Сьогодення</a></li>
             <li><a class="index-href" href="friends.html">Друзі</a></li>

@@ -3,6 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .list > ul > li:nth-child(3) {
+      color: blue;
+      text-decoration: underline;
+    }
+    .list > ul > li:nth-child(5) {
+      
+    }
+    ul {
+      list-style-type: none;
+    }
+    .list > ul > li:nth-child(2n - 1) {
+      background-color: grey;
+      color: aqua;
+    }
+
+
+
+  </style>
   <title>Nowadays</title>
 </head>
 <body>
@@ -10,31 +29,25 @@
   <a href="index.html">назад на головну</a>
   <h2>мій типовий список покупок</h2>
 
-  <ul>
-    <li>Молочні продукти
+  <ul class="list">Молочні продукти
       <ul>
         <li>Молоко</li>
         <li>Сир</li>
         <li>Йогурт</li>
         <li>Сметана</li>
-      </ul>
-    </li>
-    <li>Мучні продукти
+      </ul>Мучні продукти
       <ul>
         <li>Хліб</li>
         <li>Макарон</li>
         <li>Торт</li>
         <li>Пряники</li>
-      </ul>
-    </li>
-    <li>М'ясні продукти
+      </ul>>М'ясні продукти
       <ul>
         <li>ковбаса</li>
         <li>куряча грудка</li>
         <li>сік</li>
         <li>котлети</li>
       </ul>
-    </li>
   </ul>
 
   <h2>Мій улюблений десерт</h2>

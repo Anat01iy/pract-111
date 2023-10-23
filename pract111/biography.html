@@ -3,6 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .up {
+      margin-top: 50px;
+    }
+    ul {
+      display: flex;
+      list-style: none;
+    }
+    li > a:active {
+      background-color: yellow;
+  }
+    a {
+      text-decoration: none;
+      margin: 5px 10px;
+      padding: 10px 5px;
+      color: blue;
+      background-color: aqua;
+      border: 1px solid black;
+    }
+    a:hover {
+      transition: 0.1s linear;
+      background-color: magenta;
+      color: white;
+      cursor: pointer;
+    }
+    /* пишу через id бо вони вже були */
+    #base_inf > p {
+      background-color: red;
+      color: cyan;
+    }
+    #childhood > p {
+      background-color: blue;
+      color: darkseagreen;
+    }
+    #school_years > p {
+      background-color: purple;
+      color: aqua;
+    }
+    #outside_school > p {
+      background-color: yellow;
+      color: black;
+    }
+    #university > p {
+      background-color: black;
+      color: white;
+    }
+  </style>
   <title>Biography</title>
 </head>
 <body>
@@ -69,7 +116,9 @@
         
         Університетське життя надихає мене на нові досягнення та відкриває шлях до майбутньої кар'єри в обраній галузі. Я впевнено крокую вперед, готовий до нових викликів та досягнень.</p>
     </article>
-    <a href="#content">До змісту</a><br>
-    <a href="#autoBiography">Уверх</a>
+
+    <a href="#content">До змісту</a>
+
+    <p class="up"><a class="up" href="#autoBiography">Уверх</a></p>
 </body>
 </html>
