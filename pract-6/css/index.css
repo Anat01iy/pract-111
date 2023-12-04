@@ -1,0 +1,32 @@
+p {
+    font-size: 120%;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+ul > li:nth-child(1) > a:link {
+    color: red;
+}
+ul > li:nth-child(1) > a:link {
+    color: black;
+}
+ul > li:nth-child(1) > a:link {
+    color: blue;
+}
+ul > li:nth-child(1) > a:link {
+    color: green;
+}
+
+ul > li:nth-child(1) > a:visited {
+    color: red;
+}
+ul > li:nth-child(2) > a:visited {
+    color: black;
+}
+ul > li:nth-child(3) > a:visited {
+    color: blue;
+}
+ul > li:nth-child(4) > a:visited {
+    color: green;
+}

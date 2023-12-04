@@ -1,0 +1,27 @@
+.zag {
+    text-align: center;
+    background-color: green;
+    color: aqua;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+}
+.back_main {
+    font-style: italic;
+}
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+table {
+    border: 1px solid black;
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+}
+tr > td:nth-child(2n - 1) {
+    background-color: grey;
+    color: aqua;
+}
