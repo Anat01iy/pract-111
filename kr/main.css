@@ -1,0 +1,54 @@
+body,h1,h2,h3,h4,p,a,table {
+    margin: 0px;
+    padding: 0px;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header {
+    font-family: 'Caveat';
+}
+.block1 {
+    background-color: darkcyan;
+    position: relative;
+    color: white;
+    margin: 5px;
+}
+.block2 {
+    background-color: darkblue;
+    position: relative;
+    color: white;
+    margin: 5px;
+}
+.block3 {
+    background-color: darkseagreen;
+    position: relative;
+    color: white;
+    margin: 5px;
+}
+.block4 {
+    background-color: darkmagenta;
+    position: relative;
+    color: white;
+    margin: 5px;
+}
+.title {
+    display: inline-block;
+    background-color: chartreuse;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    color: black;
+    font-size: 120%;
+    font-family: 'Lora', serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+p, ol, table,a {
+    font-family: 'Rubik';
+}
